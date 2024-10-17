@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Sanity tests" parallel="tests" thread-count="3">
+    <test name="Login test">
+        <classes>
+            <class name="io.mend.LoginSuite"/>
+        </classes>
+    </test>
+    <test name="Profile test">
+        <classes>
+            <class name="io.mend.ProfileSuite"/>
+        </classes>
+    </test>
+    <test name="Repository test">
+        <classes>
+            <class name="io.mend.RepositoriesSuite"/>
+        </classes>
+    </test>
+</suite>
